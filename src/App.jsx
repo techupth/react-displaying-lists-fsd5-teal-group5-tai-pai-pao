@@ -25,7 +25,7 @@ function App() {
                 margin: 20px;
               `}
             >
-              <div><img src="https://dummyimage.com/102x100/000/fff" alt="" /></div>
+              <div ><img css={css`width :102px; height:100px;`} src={item.image} alt="" /></div>
 
               <div css={css`
                 display : flex;
